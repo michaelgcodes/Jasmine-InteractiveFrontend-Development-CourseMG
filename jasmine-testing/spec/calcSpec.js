@@ -1,5 +1,8 @@
 describe("Calculator", function() {
 
+    beforeEach(function() {
+        calc = new Calculator;
+    });
     var calc = new Calculator;
 
     describe("Addition tests", function() {

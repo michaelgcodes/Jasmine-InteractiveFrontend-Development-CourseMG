@@ -6,7 +6,7 @@ describe("Calculator", function() {
         it("should return 42", function () {
             calc.add(20);
             calc.add(22);
-            expect(calc.value.toBe(42);
+            expect(calc.value).toBe(42);
         });
         it("should return 26", function() {
             calc.add(7);
